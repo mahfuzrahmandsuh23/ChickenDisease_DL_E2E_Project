@@ -1,0 +1,20 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/mahfuzrahmandsuh23/ChickenDisease_DL_E2E_Project/raw/main/Chicken-fecal-images.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+# In the context of end-to-end deep learning projects, 
+# "artifacts" refer to the various outputs and components generated 
+# throughout the project lifecycle.
+#  These can include data sets, preprocessed data,
+#   model files (e.g., weights, architecture), training scripts,
+#    environment configuration files (for reproducibility), 
+#    logs, and any other files that are produced 
+#    or used by the machine learning models.
+#     Artifacts are crucial for understanding the project's 
+#     evolution, ensuring reproducibility, and facilitating 
+# model deployment and monitoring in production environments.

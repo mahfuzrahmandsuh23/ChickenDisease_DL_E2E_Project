@@ -14,4 +14,4 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
--e . #to trigger setup.py for this project as local package
+-e . #to install setup.py for this project as local package
