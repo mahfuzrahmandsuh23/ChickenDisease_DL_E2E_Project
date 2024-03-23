@@ -18,3 +18,8 @@ data_ingestion:
 #     Artifacts are crucial for understanding the project's 
 #     evolution, ensuring reproducibility, and facilitating 
 # model deployment and monitoring in production environments.
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.h5
+  updated_base_model_path: artifacts/prepare_base_model/base_model_updated.h5
